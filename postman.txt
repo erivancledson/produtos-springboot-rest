@@ -1,0 +1,47 @@
+listar produtos metodo GET
+
+http://localhost:9000/api/produto
+
+
+adicionar produto
+
+escolhe o post na url passa: http://localhost:9000/api/produto
+
+no body:
+
+  {
+        
+        "produtoId": "123",
+        "nome": "detergentessssss",
+        "valor": "122.00"
+    }
+
+
+delete
+
+metodo delete url:http://localhost:9000/api/produto
+passo no body qual quero deletar
+   {
+        "codigo": 3,
+        "produtoId": "321",
+        "nome": "sabonete",
+        "valor": "2.00"
+    }
+
+
+atualizar: 
+
+metodo PUT url: http://localhost:9000/api/produto
+body:
+   {
+        "codigo": 2,
+        "produtoId": "321",
+        "nome": "sabonete liquido",
+        "valor": "2.00"
+    }
+
+
+litar produto
+
+metodo get url: http://localhost:9000/api/produto/1   {passa o codigo do produto}
+
