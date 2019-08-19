@@ -18,14 +18,14 @@ import com.erivan.produtorest.model.Produto;
 import com.erivan.produtorest.repository.ProdutoRepository;
 
 @RestController
-@RequestMapping(value="/api")
+//@RequestMapping(value="/api")
 public class ProdutoResource {
 	
 	@Autowired
 	ProdutoRepository produtoRepository;
 	
 	//lista de produtos
-	@GetMapping("/produto")
+	@GetMapping("/produtos")
 	public List<Produto> listaProduto(){
 		
 		return produtoRepository.findAll();

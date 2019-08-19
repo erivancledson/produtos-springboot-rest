@@ -5,7 +5,7 @@ http://localhost:9000/api/produto
 
 adicionar produto
 
-escolhe o post na url passa: http://localhost:9000/api/produto
+metodo post, url: http://localhost:9000/api/produto
 
 no body:
 
@@ -19,7 +19,7 @@ no body:
 
 delete
 
-metodo delete url:http://localhost:9000/api/produto
+metodo delete, url:http://localhost:9000/api/produto
 passo no body qual quero deletar
    {
         "codigo": 3,
@@ -31,7 +31,7 @@ passo no body qual quero deletar
 
 atualizar: 
 
-metodo PUT url: http://localhost:9000/api/produto
+metodo PUT, url: http://localhost:9000/api/produto
 body:
    {
         "codigo": 2,
