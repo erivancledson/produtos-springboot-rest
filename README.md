@@ -63,19 +63,17 @@ info.app.version=@project.version@
 #http://localhost:9000/actuator/ method GET saber informações sobre a api
 vai exibir várias links para informações da API. Exemplo se ela estar funcionando fica up se não fica down. Informa o banco de dados e se ele estar funcionando. 
 
-		spring boot admin
-tem que estar na mesma versão o projeto do spring boot admin que for adicionado
+			spring boot admin
+
+Quando for criado o projeto, o spring boot admin tem que estar na mesma versão
 
 no servidor:
 
-dependencia web e do spring boot admin
+- dependências web e do spring boot admin e no main alterar as anotações para a do spring boot admin.
 
-e no main alterar as anotações para a do spring boot admin.
-
-alterar a porta para acesso.
+- alterar a porta para acesso.
 
 
-no cliente(aplicações que serão gerenciadas):
+- no cliente(aplicações que serão gerenciadas):
 
-adicionar a dependência no pom do spring boot admin
-e adicionar o caminho do servidor no application.properties
+adicionar a dependência no pom do spring boot admin e adicionar o caminho do servidor no application.properties
